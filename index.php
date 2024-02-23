@@ -20,19 +20,13 @@ class Movie {
     }
 }
 
+// Oggetti 
 $movie1 = new Movie("Harry potter", "Fantasy", 2001);
 $movie2 = new Movie("The conjuring", "Horror", 2013);
 
-?>
+// Stampo in pagina 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OOP</title>
-</head>
-<body>
-    
-</body>
-</html>
+echo $movie1->getTitle();
+echo $movie2->getTitle();
+
+
