@@ -13,6 +13,11 @@ class Movie {
         $this->gerne = $genre;
         $this->releaseYear = $realeaseYear;
     }
+
+    // Metodo
+    public function getTitle() {
+        return $this->title;
+    }
 }
 
 ?>
